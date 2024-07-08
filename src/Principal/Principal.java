@@ -23,5 +23,6 @@ public class Principal {
 
         System.out.println(minhaMusica.getTotalDeReproducoes());
         System.out.println(minhaMusica.getCurtidas());
+        System.out.println(minhaMusica.getClassificacao());
     }
 }

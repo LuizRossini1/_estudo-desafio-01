@@ -13,4 +13,13 @@ public class Musica extends Audio {
     private String cantor;
     private String genero;
 
+    //Override a method
+    @Override
+    public double getClassificacao() {
+        if (getTotalDeReproducoes() >= 2000) {
+            return 10;
+        } else {
+            return 8;
+        }
+    }
 }
