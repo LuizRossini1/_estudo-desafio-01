@@ -13,8 +13,15 @@ public class Principal {
                         "psiquiatria e o comportamento humano, incluindo \"Mentes Perigosas\". " +
                         "O Vilela não leu o livro, pois disse que está esperando sair o filme.");
 
-        minhaMusica.curtir();
-        minhaMusica.curtir();
+        for (int i = 0; i <= 1500 ; i++) {
+            minhaMusica.curtir();
+        }
+
+        for (int i = 0; i < 5000; i++) {
+            minhaMusica.reproduzir();
+        }
+
+        System.out.println(minhaMusica.getTotalDeReproducoes());
         System.out.println(minhaMusica.getCurtidas());
     }
 }
