@@ -65,7 +65,7 @@ public class Audio {
     }
 
     public void reproduzir() {
-        totalDeReproducoes += totalDeReproducoes;
+        totalDeReproducoes ++;
     }
 
 }
