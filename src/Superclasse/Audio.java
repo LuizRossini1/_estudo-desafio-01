@@ -34,8 +34,9 @@ public class Audio {
         this.curtidas = curtidas;
     }
 
-    public void setClassificacao(double classificacao) {
+    public double setClassificacao(double classificacao) {
         this.classificacao = classificacao;
+        return classificacao;
     }
 
     //Getters

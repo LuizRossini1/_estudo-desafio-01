@@ -12,4 +12,13 @@ public class Podcast extends Audio {
     private String apresentador;
     private String descricao;
 
+    //Override a method
+    @Override
+    public double getClassificacao() {
+        if (getCurtidas() >= 500) {
+            return setClassificacao(10);
+        } else {
+            return setClassificacao(7);
+        }
+    }
 }

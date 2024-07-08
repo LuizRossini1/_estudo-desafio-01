@@ -17,9 +17,9 @@ public class Musica extends Audio {
     @Override
     public double getClassificacao() {
         if (getTotalDeReproducoes() >= 2000) {
-            return 10;
+            return setClassificacao(10);
         } else {
-            return 8;
+            return setClassificacao(8);
         }
     }
 }

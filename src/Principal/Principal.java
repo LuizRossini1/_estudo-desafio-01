@@ -21,8 +21,18 @@ public class Principal {
             minhaMusica.reproduzir();
         }
 
-        System.out.println(minhaMusica.getTotalDeReproducoes());
-        System.out.println(minhaMusica.getCurtidas());
-        System.out.println(minhaMusica.getClassificacao());
+        for (int i = 0; i < 500; i++) {
+            meuPodcast.curtir();
+        }
+
+        System.out.println("Total de reproduções: " +minhaMusica.getTotalDeReproducoes());
+        System.out.println("Total de curtidas: " +minhaMusica.getCurtidas());
+        System.out.println("Classificação: " +minhaMusica.getClassificacao());
+
+        System.out.println("****************");
+
+        System.out.println("Total de reproduções: " +meuPodcast.getTotalDeReproducoes());
+        System.out.println("Total de curtidas: " +meuPodcast.getCurtidas());
+        System.out.println("Classificação: " +meuPodcast.getClassificacao());
     }
 }
