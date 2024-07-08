@@ -61,7 +61,7 @@ public class Audio {
 
     //Methods
     public void curtir() {
-        curtidas += curtidas;
+        curtidas ++;
     }
 
     public void reproduzir() {

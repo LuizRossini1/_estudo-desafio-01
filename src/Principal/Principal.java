@@ -12,5 +12,9 @@ public class Principal {
                 "DR. ANA BEATRIZ BARBOSA é psiquiatra e escritora. Ana Beatriz escreveu vários livros sobre " +
                         "psiquiatria e o comportamento humano, incluindo \"Mentes Perigosas\". " +
                         "O Vilela não leu o livro, pois disse que está esperando sair o filme.");
+
+        minhaMusica.curtir();
+        minhaMusica.curtir();
+        System.out.println(minhaMusica.getCurtidas());
     }
 }
