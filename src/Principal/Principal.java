@@ -13,11 +13,13 @@ public class Principal {
                         "psiquiatria e o comportamento humano, incluindo \"Mentes Perigosas\". " +
                         "O Vilela não leu o livro, pois disse que está esperando sair o filme.");
 
+        Preferencias minhasPreferencias = new Preferencias();
+
         for (int i = 0; i <= 1500 ; i++) {
             minhaMusica.curtir();
         }
 
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 1000; i++) {
             minhaMusica.reproduzir();
         }
 
@@ -34,5 +36,10 @@ public class Principal {
         System.out.println("Total de reproduções: " +meuPodcast.getTotalDeReproducoes());
         System.out.println("Total de curtidas: " +meuPodcast.getCurtidas());
         System.out.println("Classificação: " +meuPodcast.getClassificacao());
+
+        System.out.println("****************");
+
+        minhasPreferencias.inclui(minhaMusica);
+        minhasPreferencias.inclui(meuPodcast);
     }
 }
