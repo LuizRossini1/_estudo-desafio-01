@@ -7,8 +7,7 @@ public class Preferencias {
             System.out.println(audio.getTitulo() + " é considerado sucesso absoluto" +
                     " e preferido por todos!");
         } else {
-            System.out.println(audio.getTitulo() + " também é um dos que todo mundo está " +
-                    "curtindo");
+            System.out.println(audio.getTitulo()+ " também é uma das mais tocadas!");
         }
     }
 }
