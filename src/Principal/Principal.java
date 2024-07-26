@@ -31,13 +31,13 @@ public class Principal {
         System.out.println("Total de curtidas: " +minhaMusica.getCurtidas());
         System.out.println("Classificação: " +minhaMusica.getClassificacao());
 
-        System.out.println("****************");
+        System.out.println("*".repeat(16));
 
         System.out.println("Total de reproduções: " +meuPodcast.getTotalDeReproducoes());
         System.out.println("Total de curtidas: " +meuPodcast.getCurtidas());
         System.out.println("Classificação: " +meuPodcast.getClassificacao());
 
-        System.out.println("****************");
+        System.out.println("*".repeat(16));
 
         minhasPreferencias.inclui(minhaMusica);
         minhasPreferencias.inclui(meuPodcast);
